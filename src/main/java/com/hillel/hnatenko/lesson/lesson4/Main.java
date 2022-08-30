@@ -13,9 +13,9 @@ public class Main {
         double total = (860 * 1.5);
         int totalMin = (int) total;
 
-        int attackLi = (warriorLI * 860) + (archerLI * 860) + (riderLI * 860);
+        int attackLi = (warriorLI + archerLI + riderLI) * 860;
 
-        int attackMin = (warriorMin * totalMin) + (archerMin * totalMin) + (riderMin * totalMin);
+        int attackMin = (warriorMin + archerMin + riderMin) * totalMin;
 
         System.out.println("Загальна атака армії Лі = " + attackLi  + "\u002C" + "Загальна атака армії Мін = " + attackMin);
 

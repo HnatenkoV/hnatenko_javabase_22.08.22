@@ -16,5 +16,7 @@ public class Main {
 
         System.out.println("Cума довжин паралелепіпеда = " + length);
 
+        double dd = 3 / 10;
+        System.out.println(dd);
     }
 }
