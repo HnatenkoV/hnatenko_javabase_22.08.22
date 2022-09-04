@@ -125,11 +125,13 @@ public class Main {
               System.out.println("Перемогла команда " + firstTeam + " набравши " + firstTeamScore + " очків");
           } else if (firstTeamResult < secondTeamResult) {
               System.out.println("Перемогла команда " + secondTeam + " набравши " + secondTeamScore + " очків");
-        } else if (firstTeamResult == secondTeamResult) {
-              System.out.println("Воу воу та це ж нічия " + firstTeam  + " і " + secondTeam  + " набрали однакову кількість очків");
+        } else {
+            System.out.println("Воу воу та це ж нічия " + firstTeam  + " і " + secondTeam  + " набрали однакову кількість очків");
         }
 
         scanner.close();
+
+
 
     }
 }
