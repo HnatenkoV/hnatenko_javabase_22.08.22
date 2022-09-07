@@ -30,7 +30,6 @@ public class Lottery {
             } while (true); {
             }
         }
-
         scanner.close();
 
         }
