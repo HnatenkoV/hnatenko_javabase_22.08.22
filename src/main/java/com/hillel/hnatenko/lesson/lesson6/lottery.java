@@ -17,15 +17,18 @@ public class lottery {
                     if (answer == number) {
                         System.out.println("ви виграли");
                         break;
-                    } else {
-                        System.out.println("ви програли");
+                    } if (answer > 10 || answer < 0) {
+                        System.out.println("Вводьте числа в діапвзоні від 0 до 10");
+                    }else {
+                        System.out.println("ви програли, спробуйте ще");
+                        break;
                     }
-                    break;
                 } else {
                     System.out.println("WRONG DATA, TRY AGAIN");
                     scanner.nextLine();
                 }
-            } while (true);
+            } while (true); {
+            }
         }
         }
     }
