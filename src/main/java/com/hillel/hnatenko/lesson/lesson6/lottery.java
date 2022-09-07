@@ -30,5 +30,8 @@ public class lottery {
             } while (true); {
             }
         }
+
+        scanner.close();
+
         }
     }
