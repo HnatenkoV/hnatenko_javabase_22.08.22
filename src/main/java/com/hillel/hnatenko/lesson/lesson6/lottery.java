@@ -20,13 +20,12 @@ public class lottery {
                     } else {
                         System.out.println("ви програли");
                     }
+                    break;
                 } else {
                     System.out.println("WRONG DATA, TRY AGAIN");
                     scanner.nextLine();
                 }
             } while (true);
         }
-
         }
-
     }
