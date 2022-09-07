@@ -2,7 +2,7 @@ package com.hillel.hnatenko.lesson.lesson6;
 
 import java.util.Scanner;
 
-public class lottery {
+public class Lottery {
     public static void main(String[] args) {
 
         int number = (int) (Math.random() * 11);
