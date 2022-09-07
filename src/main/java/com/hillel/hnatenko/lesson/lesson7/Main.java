@@ -26,7 +26,13 @@ public class Main {
             sumTeam1 += team1[i];
             sumTeam2 += team2[i];
         }
+        System.out.println("Вік гравців першої команди " + sumTeam1);
+        System.out.println("Вік гравців першої команди " + sumTeam2);
 
+        int averageTeam1 = sumTeam1 / 25;
+        int averageTeam2 = sumTeam2 / 25;
 
+        System.out.println("Середній вік гравців першої команди " + averageTeam1);
+        System.out.println("Середній вік гравців першої команди " + averageTeam2);
     }
 }
