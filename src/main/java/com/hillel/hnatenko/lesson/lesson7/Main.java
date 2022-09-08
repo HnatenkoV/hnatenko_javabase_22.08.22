@@ -13,8 +13,8 @@ public class Main {
         int[] team1 = new int[25];
         int[] team2 = new int[25];
         for (int i = 0; i < 25; i++) {
-            team1[i] = (int) (18 + Math.random() * 41);
-            team2[i] = (int) (18 + Math.random() * 41);
+            team1[i] = 18 + (int) (Math.random() * ((40-18)+1));
+            team2[i] = 18 + (int) (Math.random() * ((40-18)+1));
         }
         System.out.println(Arrays.toString(team1));
         System.out.println(Arrays.toString(team2));
