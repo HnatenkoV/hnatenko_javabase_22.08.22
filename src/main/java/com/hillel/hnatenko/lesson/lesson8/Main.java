@@ -51,7 +51,7 @@ public class Main {
                 if (array1[i] == array2[i])
                     counter++;
             }
-         System.out.println("Количество совпадений: " + counter);
+         System.out.println("Кількість збігів: " + counter);
     }
 }
 
