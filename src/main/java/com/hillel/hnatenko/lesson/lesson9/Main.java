@@ -30,6 +30,9 @@ public class Main {
             if (scanner.hasNextInt()) {
                 N = scanner.nextInt();
                 break;
+            } if (N > M){
+                System.out.println("try againe");
+                scanner.nextLine();
             }
             else {
                 System.out.println("wrong data, try again");
