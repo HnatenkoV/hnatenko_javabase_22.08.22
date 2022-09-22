@@ -25,7 +25,7 @@ public class Burger {
         this.meat = meat;
         this.salad = salad;
         this.mayonnaise = mayonnaise;
-        System.out.println(this);
+        System.out.println("Original " + this);
     }
 
     public Burger(String bun, String cheese, String meat, String salad) {
@@ -33,7 +33,7 @@ public class Burger {
         this.cheese = cheese;
         this.meat = meat;
         this.salad = salad;
-        System.out.println(this);
+        System.out.println("Diet " + this);
     }
 
     public Burger(String bun, String cheese, String meat, String salad, String mayonnaise, boolean isDoubleMeat) {
@@ -43,7 +43,7 @@ public class Burger {
         this.salad = salad;
         this.mayonnaise = mayonnaise;
         this.isDoubleMeat = isDoubleMeat;
-        System.out.println(this);
+        System.out.println("Double meat" + this);
     }
 
     @Override
