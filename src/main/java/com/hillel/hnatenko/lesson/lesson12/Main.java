@@ -25,20 +25,13 @@ public class Main {
 
 
         Fitness user1 = new Fitness("Vadim", 27, "April",1993, "vadim01@gmail.com",
-                123456789, "Hnatenko", 80, "120/80", 3000);
+                123456789, "Hnatenko", 80, "120/80", 3000,1);
         Fitness user2 = new Fitness("Zinedine", 23, "June",1972, "zizou@gmail.com",
-                879871653, "Zidane", 100, "127/85", 5000);
+                879871653, "Zidane", 100, "127/85", 5000,1);
         Fitness user3 = new Fitness("Lionel", 24, "June",1987, "messi@gmail.com",
-                777865445, "Messi", 67, "119/90", 9000);
+                777865445, "Messi", 67, "119/90", 9000,1);
         Fitness user4 = new Fitness("Cristiano", 5, "February",1985, "ronaldo@gmail.com",
-                989898375, "Ronaldo", 96, "117/83", 7000);
-
-        int nowYear = 2020;
-        user1.age = nowYear - user1.getBirthYear();
-        user2.age = nowYear - user2.getBirthYear();
-        user3.age = nowYear - user3.getBirthYear();
-        user4.age = nowYear - user4.getBirthYear();
-
+                989898375, "Ronaldo", 96, "117/83", 7000,1);
 
         printAccountInfo(user1);
         printAccountInfo(user2);
@@ -73,7 +66,7 @@ public class Main {
                 "Рік народження: " + fitness.getBirthYear() + " " +
                 "Емейл: " + fitness.getEmail() + " " + "Телефон: " + fitness.getPhoneNumber() + " " +
                 "Прізвище: " + fitness.lastname + " " + "Вага: " + fitness.weight + " " + "Тиск: " + fitness.pressure + " " +
-                "Кількість кроків: " + fitness.steps + " " + "Вік користувача: " + fitness.getAge();
+                "Кількість кроків: " + fitness.steps + " " + "Вік користувача: " + fitness.age;
     }
 
 }

@@ -11,11 +11,8 @@ public class Fitness {
     public int weight;
     public String  pressure;
     public int steps;
+    int nowYear = 2020;
     public int age;
-
-    public int getAge() {
-        return age;
-    }
 
     public String getName() {
         return name;
@@ -66,8 +63,7 @@ public class Fitness {
     }
 
 
-    public Fitness(String name, int birthDay, String birthMonth, int birthYear, String email, long phoneNumber,
-                   String lastname, int weight, String pressure, int steps) {
+    public Fitness(String name, int birthDay, String birthMonth, int birthYear, String email, long phoneNumber, String lastname, int weight, String pressure, int steps, int age) {
         this.name = name;
         this.birthDay = birthDay;
         this.birthMonth = birthMonth;
@@ -78,7 +74,6 @@ public class Fitness {
         this.weight = weight;
         this.pressure = pressure;
         this.steps = steps;
-
-
+        this.age = nowYear - birthYear;
     }
 }
