@@ -13,12 +13,14 @@ public class Main {
         androids.call();
         androids.sms();
         androids.internet();
+        androids.haveLinux();
         System.out.println();
 
         IPhones iPhones = new IPhones();
         iPhones.call();
         iPhones.sms();
         iPhones.internet();
+        iPhones.haveIos();
 
     }
 }

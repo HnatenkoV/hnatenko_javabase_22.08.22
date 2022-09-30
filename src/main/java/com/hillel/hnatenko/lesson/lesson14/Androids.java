@@ -1,6 +1,6 @@
 package com.hillel.hnatenko.lesson.lesson14;
 
-public class Androids implements Smartphones{
+public class Androids implements Smartphones, LinuxOS{
 
     @Override
     public void call() {
@@ -16,4 +16,10 @@ public class Androids implements Smartphones{
     public void internet() {
         System.out.println("Androids internet...");
     }
+
+    @Override
+    public void haveLinux() {
+        System.out.println("LinuxOS");
+    }
+
 }

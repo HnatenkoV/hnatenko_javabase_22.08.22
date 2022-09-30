@@ -1,6 +1,6 @@
 package com.hillel.hnatenko.lesson.lesson14;
 
-public class IPhones implements Smartphones{
+public class IPhones implements Smartphones, IOS{
 
     @Override
     public void call() {
@@ -15,5 +15,10 @@ public class IPhones implements Smartphones{
     @Override
     public void internet() {
         System.out.println("iPhones internet...");
+    }
+
+    @Override
+    public void haveIos() {
+        System.out.println("ios");
     }
 }
