@@ -1,6 +1,5 @@
 package com.hillel.hnatenko.lesson.lesson15;
 
-import java.util.Arrays;
 import java.util.Scanner;
 
 //Інструменти для використання:
@@ -26,8 +25,8 @@ public class Main {
 
     public static void main(String[] args) {
         run();
-        System.out.println(DrinksCount.counter);
-        System.out.println(totalPrise);
+        System.out.println("зроблено напоїв: " + DrinksCount.counterDrinks);
+        System.out.println("загальна ціна: " + totalPrise);
         scanner.close();
     }
     public static void run() {
@@ -77,7 +76,7 @@ public class Main {
     }
 
         private static DrinksMachine getDrink() {
-            System.out.println(" виберіть напій або натісніть Stop");
+            System.out.println("виберіть напій або натісніть STOP");
             while (true) {
                 String str = scanner.next().toUpperCase();
 
