@@ -49,27 +49,27 @@ public class Main {
 
             switch (drinksMachine) {
                 case COFFEE:
-                    System.out.print("Ви вибрали каву! з ціною " + Drinks.CoffeePrise + "грн.");
+                    MakingDrinks.coffeePrepare();
                     totalPrise += Drinks.CoffeePrise;
                     break;
                 case TEA:
-                    System.out.print("Ви вибрали чай! з ціною " + Drinks.TeaPrise + "грн.");
+                    MakingDrinks.teaPrepare();
                     totalPrise += Drinks.TeaPrise;
                     break;
                 case LEMONADE:
-                    System.out.print("Ви вибрали лимонад! з ціною " + Drinks.LemonadePrise + "грн.");
+                    MakingDrinks.lemonadePrepare();
                     totalPrise += Drinks.LemonadePrise;
                     break;
                 case MOJITO:
-                    System.out.print("Ви вибрали мохіто! з ціною " + Drinks.MojitoPrise + "грн.");
+                    MakingDrinks.mojitoPrepare();
                     totalPrise += Drinks.MojitoPrise;
                     break;
                 case SODA:
-                    System.out.print("Ви вибрали мінералку! з ціною " + Drinks.SodaPrise + "грн.");
+                    MakingDrinks.sodaPrepare();
                     totalPrise += Drinks.SodaPrise;
                     break;
                 case COCA_COLA:
-                    System.out.print("Ви вибрали кокаколу! з ціною " + Drinks.CocaColaPrise + "грн.");
+                    MakingDrinks.CocaColaPrepare();
                     totalPrise += Drinks.CocaColaPrise;
                     break;
             }
@@ -77,7 +77,7 @@ public class Main {
     }
 
         private static DrinksMachine getDrink() {
-            System.out.println(" виберіть напій");
+            System.out.println(" виберіть напій або натісніть Stop");
             while (true) {
                 String str = scanner.next().toUpperCase();
 

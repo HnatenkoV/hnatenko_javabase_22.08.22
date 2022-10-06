@@ -9,13 +9,6 @@ public class Drinks {
     public static final int CocaColaPrise = 35;
 
 
-//    public static void main(String[] args) {
-//        public int coffeePrepare() {
-//            System.out.println("Кава готується" + "Ціна напою" + CoffeePrise + "грн");
-//            System.out.print("Ваша кава готова");
-//        }
-//    }
-
 
 
 }
